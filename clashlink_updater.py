@@ -7,6 +7,8 @@ from jinja2 import Environment, FileSystemLoader
 import subprocess
 
 # 加载项目配置
+script_dir = os.path.dirname(os.path.abspath(__file__))
+os.chdir(script_dir)
 with open('config.json', 'r') as f:
     config = json.load(f)
 
