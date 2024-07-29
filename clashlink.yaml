@@ -1,5 +1,380 @@
 # 代理集合（获取机场订阅链接内的所有节点）
 proxy-providers:
+  🛬 我的机场 240729_0:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/0-20240729.yaml
+    path: ./proxies/airport_240729_0.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240729_1:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/1-20240729.yaml
+    path: ./proxies/airport_240729_1.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240729_2:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/2-20240729.yaml
+    path: ./proxies/airport_240729_2.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240729_3:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/1-20240729.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
+    path: ./proxies/airport_240729_3.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240729_4:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/2-20240729.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
+    path: ./proxies/airport_240729_4.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240728_0:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/0-20240728.yaml
+    path: ./proxies/airport_240728_0.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240728_1:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/1-20240728.yaml
+    path: ./proxies/airport_240728_1.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240728_2:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/2-20240728.yaml
+    path: ./proxies/airport_240728_2.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240728_3:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/1-20240728.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
+    path: ./proxies/airport_240728_3.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240728_4:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/2-20240728.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
+    path: ./proxies/airport_240728_4.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240727_0:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/0-20240727.yaml
+    path: ./proxies/airport_240727_0.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240727_1:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/1-20240727.yaml
+    path: ./proxies/airport_240727_1.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240727_2:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/2-20240727.yaml
+    path: ./proxies/airport_240727_2.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240727_3:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/1-20240727.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
+    path: ./proxies/airport_240727_3.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240727_4:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/2-20240727.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
+    path: ./proxies/airport_240727_4.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240726_0:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/0-20240726.yaml
+    path: ./proxies/airport_240726_0.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240726_1:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/1-20240726.yaml
+    path: ./proxies/airport_240726_1.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240726_2:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/2-20240726.yaml
+    path: ./proxies/airport_240726_2.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240726_3:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/1-20240726.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
+    path: ./proxies/airport_240726_3.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240726_4:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/2-20240726.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
+    path: ./proxies/airport_240726_4.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240725_0:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/0-20240725.yaml
+    path: ./proxies/airport_240725_0.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240725_1:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/1-20240725.yaml
+    path: ./proxies/airport_240725_1.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240725_2:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://www.freeclashnode.com/uploads/2024/07/2-20240725.yaml
+    path: ./proxies/airport_240725_2.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240725_3:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/1-20240725.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
+    path: ./proxies/airport_240725_3.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
+  🛬 我的机场 240725_4:
+    type: http
+    # 机场订阅链接，使用 Clash 链接
+    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/2-20240725.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
+    path: ./proxies/airport_240725_4.yaml
+    interval: 86400
+    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
+    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
+    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
+    exclude-filter: "高倍|×10"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+
   🛬 我的机场 240724_0:
     type: http
     # 机场订阅链接，使用 Clash 链接
@@ -365,381 +740,6 @@ proxy-providers:
     # 机场订阅链接，使用 Clash 链接
     url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/2-20240720.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
     path: ./proxies/airport_240720_4.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240719_0:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/0-20240719.yaml
-    path: ./proxies/airport_240719_0.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240719_1:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/1-20240719.yaml
-    path: ./proxies/airport_240719_1.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240719_2:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/2-20240719.yaml
-    path: ./proxies/airport_240719_2.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240719_3:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/1-20240719.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-    path: ./proxies/airport_240719_3.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240719_4:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/2-20240719.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-    path: ./proxies/airport_240719_4.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240718_0:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/0-20240718.yaml
-    path: ./proxies/airport_240718_0.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240718_1:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/1-20240718.yaml
-    path: ./proxies/airport_240718_1.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240718_2:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/2-20240718.yaml
-    path: ./proxies/airport_240718_2.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240718_3:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/1-20240718.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-    path: ./proxies/airport_240718_3.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240718_4:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/2-20240718.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-    path: ./proxies/airport_240718_4.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240717_0:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/0-20240717.yaml
-    path: ./proxies/airport_240717_0.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240717_1:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/1-20240717.yaml
-    path: ./proxies/airport_240717_1.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240717_2:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/2-20240717.yaml
-    path: ./proxies/airport_240717_2.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240717_3:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/1-20240717.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-    path: ./proxies/airport_240717_3.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240717_4:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/2-20240717.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-    path: ./proxies/airport_240717_4.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240716_0:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/0-20240716.yaml
-    path: ./proxies/airport_240716_0.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240716_1:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/1-20240716.yaml
-    path: ./proxies/airport_240716_1.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240716_2:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/2-20240716.yaml
-    path: ./proxies/airport_240716_2.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240716_3:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/1-20240716.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-    path: ./proxies/airport_240716_3.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240716_4:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/2-20240716.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-    path: ./proxies/airport_240716_4.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240715_0:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/0-20240715.yaml
-    path: ./proxies/airport_240715_0.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240715_1:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/1-20240715.yaml
-    path: ./proxies/airport_240715_1.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240715_2:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://www.freeclashnode.com/uploads/2024/07/2-20240715.yaml
-    path: ./proxies/airport_240715_2.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240715_3:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/1-20240715.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-    path: ./proxies/airport_240715_3.yaml
-    interval: 86400
-    # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
-    filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
-    # 初步排除不需要的节点，支持正则表达式，若不排除可删除此配置项
-    exclude-filter: "高倍|×10"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
-
-  🛬 我的机场 240715_4:
-    type: http
-    # 机场订阅链接，使用 Clash 链接
-    url: https://apiurl.v1.mk/sub?target=clash&url=https://www.freeclashnode.com/uploads/2024/07/2-20240715.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-    path: ./proxies/airport_240715_4.yaml
     interval: 86400
     # 初步筛选需要的节点，可有效减轻路由器压力，支持正则表达式，不筛选可删除此配置项
     filter: "(?i)港|hk|hongkong|hong kong|台|tw|taiwan|日本|jp|japan|新|sg|singapore|美|us|unitedstates|united states|塞舌尔|sc|seychelles|英国|uk|united kingdom|澳大利亚|au|australia|西班牙|es|spain|阿联酋|ae|united arab emirates|乌克兰|ua|ukraine|卢森堡|lu|luxembourg|法国|fr|france"
